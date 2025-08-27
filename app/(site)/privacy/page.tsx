@@ -1,3 +1,5 @@
+export const metadata = { title: "Privacy Policy" };
+
 export default function PrivacyPage() {
   return (
     <main className="min-h-screen px-6 sm:px-8 py-20">

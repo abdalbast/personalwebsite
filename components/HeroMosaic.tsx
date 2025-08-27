@@ -2,7 +2,6 @@
 import Image from "next/image";
 import Link from "next/link";
 import { useMemo } from "react";
-import { readFeaturedProjects } from "@/lib/projects";
 
 // Client stub: we will pass projects from server to avoid fs usage on client
 export type MosaicItem = { href: string; src: string; alt: string };

@@ -1,4 +1,4 @@
-import { readAllProjects, type Project } from "@/lib/projects";
+import { type Project } from "@/lib/projects";
 import ProjectCard from "@/components/ProjectCard";
 
 export default function ProjectsGrid({ projects }: { projects: Project[] }) {
