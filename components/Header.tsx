@@ -18,8 +18,8 @@ export default function Header() {
   const linkClass = (href: string) =>
     `relative transition-colors ${
       pathname === href
-        ? "after:absolute after:left-0 after:-bottom-1 after:h-[2px] after:w-full after:bg-[var(--accent)]"
-        : "after:content-[''] after:absolute after:left-0 after:-bottom-1 after:h-[2px] after:w-0 after:bg-[var(--accent)] hover:after:w-full"
+        ? "text-[var(--accent)] after:absolute after:-inset-2 after:rounded-lg after:bg-[var(--accent)]/25 after:blur-md after:-z-10"
+        : "hover:text-[var(--accent)] after:absolute after:-inset-2 after:rounded-lg after:bg-transparent hover:after:bg-[var(--accent)]/20 hover:after:blur-md after:-z-10"
     }`;
 
   return (
