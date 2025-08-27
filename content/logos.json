@@ -1,0 +1,7 @@
+{
+  "items": [
+    { "name": "Oscar’s Group", "src": "/logos/oscars.svg", "url": "https://oscars-group.example", "alt": "Oscar’s Group" },
+    { "name": "University of Plymouth", "src": "/logos/plymouth.svg", "url": "https://www.plymouth.ac.uk", "alt": "University of Plymouth" },
+    { "name": "AUIS", "src": "/logos/auis.svg", "url": "https://auis.edu.krd", "alt": "AUIS" }
+  ]
+}

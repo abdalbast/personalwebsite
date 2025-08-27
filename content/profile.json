@@ -1,0 +1,19 @@
+{
+  "name": "Abdalbast O. Khdhir",
+  "role": "Graduate Machine Learning Engineer & Web Developer",
+  "location": "Edinburgh, UK",
+  "availability": { "status": "available", "from": null },
+  "email": "YOUR_EMAIL_HERE",
+  "socials": {
+    "linkedin": "https://www.linkedin.com/in/USERNAME",
+    "github": "https://github.com/abdalbast",
+    "x": null,
+    "instagram": null,
+    "website": "https://your-domain.com"
+  },
+  "hero": {
+    "headline": "High-quality AI & Web Projects for Startups and Teams",
+    "subheadline": "I build tidy, performant products using Python, LLMs and modern web."
+  },
+  "about": "Paste your LinkedIn “About” here (1–3 sentences, British English)."
+}

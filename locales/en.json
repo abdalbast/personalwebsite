@@ -1,0 +1,16 @@
+{
+  "nav.home": "Home",
+  "nav.projects": "Projects",
+  "cta.talk": "Let’s talk",
+  "avail.available": "Currently available",
+  "avail.from": "Available from {{date}}",
+  "hero.title": "High-quality AI & Web Projects for Startups and Teams",
+  "hero.sub": "I build tidy, performant products using Python, LLMs, and modern web.",
+  "intro.hey": "Hey, I’m Abdalbast.",
+  "intro.reliable": "Your reliable AI/ML Engineer & Developer",
+  "section.projects": "Featured Projects",
+  "section.logos": "Experience with teams & organisations",
+  "section.skills": "Skills",
+  "section.cta": "Ready to build with AI?",
+  "cta.tellme": "Tell me about your project."
+}

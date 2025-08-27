@@ -1,0 +1,44 @@
+{
+  "experience": [
+    {
+      "title": "Creative Operations Manager",
+      "org": "Oscar’s Group (Boathouse Portobello & venues)",
+      "location": "Edinburgh, UK",
+      "start": "2024-07",
+      "end": null,
+      "bullets": [
+        "Ran social media, content, and web updates; improved engagement using analytics.",
+        "Supported IT operations (Microsoft 365, device rollouts, POS coordination).",
+        "Streamlined hiring/training processes and customer support workflows."
+      ],
+      "links": []
+    },
+    {
+      "title": "IT Systems Administrator",
+      "org": "King of Road / King Force Security",
+      "location": "UK",
+      "start": "2023-01",
+      "end": "2024-06",
+      "bullets": [
+        "Managed Microsoft 365, Azure AD/Intune, and device policies in regulated contexts.",
+        "Delivered desktop support, imaging, and access control with audit readiness."
+      ]
+    }
+  ],
+  "education": [
+    {
+      "title": "MSc Data Science & Business Analytics",
+      "org": "University of Plymouth",
+      "start": "2022",
+      "end": "2024",
+      "bullets": ["Python, SQL, ML, data pipelines, analytics projects."]
+    },
+    {
+      "title": "BSc Information Technology (Minor in Business Administration)",
+      "org": "American University of Iraq, Sulaimani",
+      "start": "2015",
+      "end": "2019",
+      "bullets": ["Software dev fundamentals, databases, web, business coursework."]
+    }
+  ]
+}

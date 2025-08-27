@@ -1,0 +1,5 @@
+{
+  "primary": ["Python", "SQL", "Machine Learning", "LLMs", "LangChain", "Pandas", "scikit-learn", "Tailwind CSS", "Next.js", "Git"],
+  "secondary": ["Power BI", "Azure", "Docker", "HTML", "CSS", "JavaScript", "REST APIs"],
+  "soft": ["Clear communication", "Problem solving", "Leadership", "Stakeholder management"]
+}

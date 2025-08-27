@@ -1,0 +1,11 @@
+import { ReactNode } from "react";
+
+export default function Section({ children, id }: { children: ReactNode; id?: string }) {
+  return (
+    <section id={id} className="section px-6 sm:px-8">
+      <div className="container">
+        {children}
+      </div>
+    </section>
+  );
+}
