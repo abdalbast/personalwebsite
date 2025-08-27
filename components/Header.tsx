@@ -1,5 +1,5 @@
 import Link from "next/link";
-import AvailabilityBadge from "@/components/AvailabilityBadge";
+import AvailabilityBadge, { Availability } from "@/components/AvailabilityBadge";
 import profile from "@/content/profile.json";
 
 export default function Header() {
@@ -14,7 +14,7 @@ export default function Header() {
           <Link href={process.env.NEXT_PUBLIC_CONTACT_EMAIL ? `mailto:${process.env.NEXT_PUBLIC_CONTACT_EMAIL}` : "mailto:hello@example.com"} className="rounded-md px-4 py-2 bg-[var(--accent)] text-black font-medium transition-transform hover:scale-[1.01]">Let’s talk</Link>
         </nav>
         <div className="flex items-center gap-4">
-          <AvailabilityBadge status={availability.status as any} from={availability.from} />
+          <AvailabilityBadge status={availability.status as Availability} from={availability.from} />
         </div>
       </div>
     </header>

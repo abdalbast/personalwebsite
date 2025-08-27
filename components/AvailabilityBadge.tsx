@@ -1,4 +1,4 @@
-type Availability = "available" | "not-available" | "from-date";
+export type Availability = "available" | "not-available" | "from-date";
 
 export default function AvailabilityBadge({ status, from }: { status: Availability; from?: string | null; }) {
   const label =
