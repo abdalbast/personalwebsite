@@ -1,0 +1,16 @@
+{
+  "nav.home": "Hem",
+  "nav.projects": "Projekt",
+  "cta.talk": "Kontakta mig",
+  "avail.available": "Tillgänglig nu",
+  "avail.from": "Tillgänglig från {{date}}",
+  "hero.title": "Högkvalitativa AI- och webbprojekt för startups och team",
+  "hero.sub": "Jag bygger prydliga, högpresterande produkter med Python, LLM:er och modern webb.",
+  "intro.hey": "Hej, jag är Abdalbast.",
+  "intro.reliable": "Din pålitliga AI/ML-ingenjör och utvecklare",
+  "section.projects": "Utvalda projekt",
+  "section.logos": "Erfarenhet med team och organisationer",
+  "section.skills": "Färdigheter",
+  "section.cta": "Redo att bygga med AI?",
+  "cta.tellme": "Berätta om ditt projekt."
+}
