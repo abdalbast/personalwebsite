@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 900">
+  <defs>
+    <linearGradient id="g" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#0B0C0E"/>
+      <stop offset="100%" stop-color="#121417"/>
+    </linearGradient>
+  </defs>
+  <rect width="1600" height="900" fill="url(#g)"/>
+  <g fill="#25D0C2" opacity="0.9">
+    <rect x="500" y="320" width="600" height="260" rx="24" fill="#121a1f" stroke="#25D0C2" stroke-width="4"/>
+    <line x1="520" y1="380" x2="1080" y2="380" stroke="#25D0C2" stroke-width="6" stroke-linecap="round"/>
+    <circle cx="560" cy="470" r="28" fill="#25D0C2"/>
+    <rect x="620" y="450" width="420" height="40" rx="8" fill="#1b242b" stroke="#25D0C2" stroke-width="3"/>
+  </g>
+  <text x="800" y="700" text-anchor="middle" font-family="Inter, Arial, sans-serif" font-size="52" fill="#EDEFF1" font-weight="700">Blocker for webOS</text>
+</svg>
