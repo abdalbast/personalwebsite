@@ -2,6 +2,7 @@ import Link from "next/link";
 import AvailabilityBadge, { Availability } from "@/components/AvailabilityBadge";
 import profile from "@/content/profile.json";
 import LocaleSwitcher from "@/components/LocaleSwitcher";
+import ThemeToggle from "@/components/ThemeToggle";
 
 export default function Header() {
   const { availability } = profile;
@@ -17,6 +18,8 @@ export default function Header() {
         <div className="flex items-center gap-4">
           <AvailabilityBadge status={availability.status as Availability} from={availability.from} />
           <LocaleSwitcher />
+          {/* Theme toggle */}
+          <ThemeToggle />
         </div>
       </div>
     </header>

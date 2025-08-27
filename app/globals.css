@@ -8,6 +8,15 @@
   --card: #121417;
 }
 
+/* Light theme overrides */
+:root[data-theme='light'] {
+  --bg: #F6F7F9;
+  --text: #0B0C0E;
+  --muted: #5E6670;
+  --accent: #2CBDB2; /* soften teal slightly in light */
+  --card: #FFFFFF;
+}
+
 @theme inline {
   --color-background: var(--bg);
   --color-foreground: var(--text);

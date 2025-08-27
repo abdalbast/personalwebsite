@@ -30,6 +30,8 @@ export const metadata: Metadata = {
   },
 };
 
+import ThemeProvider from "@/components/ThemeProvider";
+
 export default function RootLayout({
   children,
 }: Readonly<{
@@ -40,8 +42,10 @@ export default function RootLayout({
       <body
         className={`${geistSans.variable} ${geistMono.variable} antialiased`}
       >
-        {children}
-        <StructuredData />
+        <ThemeProvider>
+          {children}
+          <StructuredData />
+        </ThemeProvider>
       </body>
     </html>
   );
